@@ -1,1 +1,12 @@
-Hello World!
+*************************Data Structures*************************
+Implemented the List data structure (list.cpp + list.h)
+Implemented the Stack and Queue data structure (stack.cpp + stack.h and queue.cpp + queue.h), inherits from List class
+test1.cpp: to test and make sure that the List data structure has been implemented correctly
+test2.cpp: to test and make sure that the Stack and Queue class has been implemented correctly
+
+*************************Applications*************************
+app1.cpp:	using 2D linked lists structure, created a Dictionary, in 1 dimension it changes alphabet, 
+			the other dimension is all the words in dictionary of that alphabet (lexographically sorted).
+app2.cpp:	using stacks, implemented a program to find Fn (the nth number in a Fibonacci sequence).
+app3.cpp:	using a queue to store all the words in Dictionary (from app1.cpp) that have the given 
+			string 'str' as a sub-string in themselves (words are lexicographically sorted).
