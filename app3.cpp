@@ -75,7 +75,7 @@ Queue<string> FindWords(string sub_str)
 		ListItem<string>* insideTemp = sortedtemp->wordList.getHead();
 		while(insideTemp!=NULL)
 		{
-			unsigned found = insideTemp->value.find(sub_str);
+			// unsigned found = insideTemp->value.find(sub_str);
 			if(std::string::npos != insideTemp->value.find(sub_str))//Taken from cplusplus reference. npos indicated end of string it no match is founf it will equal to npos
 			{
 				queue.enqueue(insideTemp->value);
