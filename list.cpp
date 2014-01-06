@@ -330,7 +330,7 @@ return;
 
 	ListItem<T>* temp1=head;
 	ListItem<T>* temp2=temp1->next;
-	ListItem<T>* temp3=temp3->next;
+	ListItem<T>* temp3=temp2->next;
 
 	while(temp2!=NULL)
 	{
